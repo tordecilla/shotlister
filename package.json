@@ -4,11 +4,20 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:managed": "node server.js --dev",
     "build": "next build",
     "start": "next start",
+    "start:managed": "node server.js",
+    "stop": "node scripts/stop-server.js",
+    "smolvlm:start": "node start-smolvlm.js",
+    "smolvlm:stop": "node scripts/stop-smolvlm.js",
     "lint": "eslint"
   },
   "dependencies": {
+    "@uppy/core": "^5.2.0",
+    "@uppy/react": "^5.2.0",
+    "@uppy/xhr-upload": "^5.1.1",
+    "exceljs": "^4.4.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"

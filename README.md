@@ -37,7 +37,7 @@ Upload videos and automatically detect scenes with AI-generated descriptions. Bu
 ### Windows:
 ```bash
 # 1. Clone repository
-git clone https://github.com/yourusername/shotlister.git
+git clone https://github.com/tordecilla/shotlister.git
 cd shotlister
 
 # 2. Run installation script
@@ -53,7 +53,7 @@ The installer will:
 ### Mac/Linux:
 ```bash
 # 1. Clone repository
-git clone https://github.com/yourusername/shotlister.git
+git clone https://github.com/tordecilla/shotlister.git
 cd shotlister
 
 # 2. Make installer executable and run

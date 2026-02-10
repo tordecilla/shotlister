@@ -1,0 +1,8 @@
+# Auto detect text files and normalize to LF in the repo, CRLF on checkout (Windows)
+* text=auto eol=crlf
+
+# Shell scripts must always use LF
+*.sh text eol=lf
+
+# Batch files must use CRLF
+*.bat text eol=crlf

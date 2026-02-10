@@ -1,0 +1,5 @@
+{
+  "useCuda": true,
+  "vlmModel": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+  "sceneDetector": "transnetv2"
+}

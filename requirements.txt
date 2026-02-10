@@ -1,0 +1,11 @@
+# Python dependencies for scene detection and AI descriptions
+# Note: The install script automatically installs PyTorch with CUDA support if an NVIDIA GPU is detected
+
+scenedetect[opencv]>=0.6.0
+transnetv2-pytorch>=1.0.0
+transformers>=4.30.0
+pillow>=10.0.0
+accelerate>=0.20.0
+num2words>=0.5.13
+
+# PyTorch is installed separately by install.bat/install.sh based on GPU availability

@@ -45,6 +45,7 @@ next-env.d.ts
 
 # Claude Code
 .claude/
+claude.md
 
 # Windows device name artifact
 nul

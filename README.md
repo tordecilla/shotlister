@@ -19,7 +19,7 @@ Upload videos and automatically detect scenes with AI-generated descriptions. Bu
 ## 📋 Prerequisites
 
 - **Node.js** 18+ ([Download](https://nodejs.org/))
-- **Python** 3.11 or 3.12 recommended ([Download](https://www.python.org/downloads/))
+- **Python** 3.11 to 3.13 ([Download](https://www.python.org/downloads/))
 - **Git** ([Download](https://git-scm.com/downloads))
 - *Optional but recommended:* NVIDIA GPU with 4GB+ VRAM for faster processing
 
@@ -162,9 +162,9 @@ If scene detection feels slow (2-3+ minutes for a single video), make sure you'r
   npm run dev -- -p 3001
   ```
 
-### Upload fails or times out
-- Check your internet connection
+### Upload fails
 - Try a smaller video file first
+- Make sure the dev server is running (`npm run dev`)
 - Look at the browser console for errors (F12 → Console tab)
 
 ### "Permission denied" errors

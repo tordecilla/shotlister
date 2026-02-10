@@ -4,31 +4,12 @@
 
 Upload videos and automatically detect scenes with AI-generated descriptions. Built with Next.js, React, TypeScript, and SmolVLM2.
 
-## ✨ Features
-
-- 📤 **Drag-and-Drop Upload** - Intuitive file upload interface
-- 🎥 **All Video Formats** - Supports MP4, MOV, AVI, MKV, WebM, and more
-- 📊 **Progress Tracking** - Real-time upload and processing progress
-- 🎬 **Scene Detection** - Automatic scene detection using PySceneDetect
-- 🤖 **AI Descriptions** - SmolVLM2 generates descriptions for each scene
-- 🖼️ **Scene Thumbnails** - Visual preview of every detected scene
-- ⏱️ **Timecode Display** - Precise timestamps for each scene
-- 🚀 **GPU Acceleration** - 10x faster with NVIDIA CUDA support
-- 🔐 **Local Processing** - All processing happens on your machine, no cloud required
-
 ## 📋 Prerequisites
 
 - **Node.js** 18+ ([Download](https://nodejs.org/))
 - **Python** 3.11 to 3.13 ([Download](https://www.python.org/downloads/))
 - **Git** ([Download](https://git-scm.com/downloads))
 - *Optional but recommended:* NVIDIA GPU with 4GB+ VRAM for faster processing
-
-## ⚡ Performance Comparison
-
-| Setup | Model Load | Per Scene | 100 Scenes | Recommended For |
-|-------|-----------|-----------|------------|-----------------|
-| **🚀 GPU (CUDA)** | 5-10s | 2-5s | **5-10 min** | NVIDIA GPUs |
-| **💻 CPU Only** | 20-30s | 60-90s | **2-3 hours** | All computers |
 
 ## 🚀 Installation
 
@@ -78,6 +59,18 @@ start.bat
 The start script automatically activates the Python environment and starts the server.
 
 Then open **http://localhost:3000** in your browser!
+
+## ✨ Features
+
+- 📤 **Drag-and-Drop Upload** - Intuitive file upload interface
+- 🎥 **All Video Formats** - Supports MP4, MOV, AVI, MKV, WebM, and more
+- 📊 **Progress Tracking** - Real-time upload and processing progress
+- 🎬 **Scene Detection** - Automatic scene detection using PySceneDetect
+- 🤖 **AI Descriptions** - SmolVLM2 generates descriptions for each scene
+- 🖼️ **Scene Thumbnails** - Visual preview of every detected scene
+- ⏱️ **Timecode Display** - Precise timestamps for each scene
+- 🚀 **GPU Acceleration** - 10x faster with NVIDIA CUDA support
+- 🔐 **Local Processing** - All processing happens on your machine, no cloud required
 
 ## 📖 How to Use
 
@@ -170,10 +163,6 @@ If scene detection feels slow (2-3+ minutes for a single video), make sure you'r
 ### "Permission denied" errors
 - Make sure you have write permissions in the project folder
 - On Mac/Linux, you may need to run: `chmod +x install.sh start.sh`
-
-## 📝 License
-
-This project is open source and available for personal and commercial use.
 
 ## 🤝 Contributing
 
